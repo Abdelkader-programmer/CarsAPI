@@ -111,10 +111,6 @@
     -   **النوع:** سيارات ألمانية فاخرة وراقية.
     -   **الرابط:** `https://api-v1-pi.vercel.app/api/cars/mercedes`
 
--   **Peugeot**
-    -   **النوع:** سيارات فرنسية أنيقة.
-    -   **الرابط:** `https://api-v1-pi.vercel.app/api/cars/peugeot`
-
 -   **Porsche**
     -   **النوع:** سيارات رياضية ألمانية فاخرة.
     -   **الرابط:** `https://api-v1-pi.vercel.app/api/cars/porsche`
