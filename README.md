@@ -72,10 +72,13 @@
 ---
 
 ### 🆔 3. جلب سيارة محددة بالـ ID
--   **Endpoint:** `GET /api/car/:id`
--   **الوصف:** يقوم بجلب بيانات سيارة واحدة محددة عن طريق `id` الخاص بها.
--   **مثال:** `https://api-v1-pi.vercel.app/api/car/1`
--   **مثال لـ ID غير موجود:** `https://api-v1-pi.vercel.app/api/car/9999`
+    Endpoint: GET /api/cars/:brandName/:id
+    الوصف: يقوم بجلب بيانات سيارة واحدة محددة عن طريق اسم الماركة (brandName) والـ ID الخاص بها.
+    Parameters:
+        :brandName: اسم الماركة (براند) السيارة. يجب أن يكون بأحرف صغيرة (lowercase).
+        :id: المعرف الفريد (ID) للسيارة داخل الماركة.
+    مثال: https://api-v1-pi.vercel.app/api/cars/bmw/1
+    مثال لـ ID غير موجود: https://api-v1-pi.vercel.app/api/cars/bmw/9999
 
 ---
 
@@ -110,6 +113,10 @@
 -   **Mercedes**
     -   **النوع:** سيارات ألمانية فاخرة وراقية.
     -   **الرابط:** `https://api-v1-pi.vercel.app/api/cars/mercedes`
+
+-   **Peugeot**
+    -   **النوع:** سيارات فرنسية أنيقة.
+    -   **الرابط:** `https://api-v1-pi.vercel.app/api/cars/peugeot`
 
 -   **Porsche**
     -   **النوع:** سيارات رياضية ألمانية فاخرة.
